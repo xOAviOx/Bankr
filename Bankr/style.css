@@ -1,6 +1,4 @@
-
-
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -89,8 +87,8 @@ nav {
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
 
-  /* NOTE This creates the fade in/out anumation */
-  /* opacity: 0; */
+  /* this creates the fade in/out anumation */
+  opacity: 0;
   transition: all 1s;
 }
 
