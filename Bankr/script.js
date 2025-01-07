@@ -159,6 +159,7 @@ const formatDates = function (date, locale) {
   return new Intl.DateTimeFormat(locale).format(date);
 };
 
+//Configuring the numbers format
 const NumberFormat = function (value, locale, currency) {
   return new Intl.NumberFormat(locale, {
     style: 'currency',
