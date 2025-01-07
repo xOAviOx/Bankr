@@ -165,6 +165,7 @@ const NumberFormat = function (value, locale, currency) {
     currency: currency,
   }).format(value);
 };
+//Display the movements
 const displayMovements = function (acc, sort = false) {
   containerMovements.innerHTML = '';
   const combinedMovsDates = acc.movements.map((mov, i) => ({
