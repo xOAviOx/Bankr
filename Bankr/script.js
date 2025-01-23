@@ -196,6 +196,7 @@ const displayMovements = function (acc, sort = false) {
   });
 };
 
+//Display balanc
 const calcDisplayBalance = function (acc) {
   const balance = acc.movements.reduce((acc, mov) => {
     return acc + mov;
